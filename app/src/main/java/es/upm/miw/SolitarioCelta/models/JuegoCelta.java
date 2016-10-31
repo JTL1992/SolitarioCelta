@@ -1,4 +1,4 @@
-package es.upm.miw.SolitarioCelta.Modelos;
+package es.upm.miw.SolitarioCelta.models;
 
 public class JuegoCelta {
 	public static final int TAMANIO = 7;

@@ -1,10 +1,9 @@
-package es.upm.miw.SolitarioCelta.AlertView;
+package es.upm.miw.SolitarioCelta.alertdialog;
 
 import android.app.Activity;
 import android.content.DialogInterface;
 
-import es.upm.miw.SolitarioCelta.Activities.MainActivity;
-import es.upm.miw.SolitarioCelta.Activities.ResultsListActivity;
+import es.upm.miw.SolitarioCelta.activities.ResultsListActivity;
 import es.upm.miw.SolitarioCelta.R;
 import es.upm.miw.SolitarioCelta.utils.FileUtils;
 

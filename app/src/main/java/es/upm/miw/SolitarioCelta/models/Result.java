@@ -1,4 +1,4 @@
-package es.upm.miw.SolitarioCelta.Modelos;
+package es.upm.miw.SolitarioCelta.models;
 
 import org.json.JSONArray;
 import org.json.JSONException;

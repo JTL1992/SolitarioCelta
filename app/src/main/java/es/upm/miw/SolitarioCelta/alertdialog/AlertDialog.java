@@ -1,4 +1,4 @@
-package es.upm.miw.SolitarioCelta.AlertView;
+package es.upm.miw.SolitarioCelta.alertdialog;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -6,7 +6,6 @@ import android.app.DialogFragment;
 import android.content.DialogInterface;
 import android.os.Bundle;
 
-import es.upm.miw.SolitarioCelta.Activities.MainActivity;
 import es.upm.miw.SolitarioCelta.R;
 
 /**

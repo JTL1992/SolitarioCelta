@@ -1,6 +1,4 @@
-package es.upm.miw.SolitarioCelta.Modelos;
-
-import android.util.Log;
+package es.upm.miw.SolitarioCelta.models;
 
 /**
  * Created by nuonuo-jtl on 16/10/31.
@@ -21,12 +19,12 @@ public class GameTimer {
     }
 
     private long setTimer(String s){
-        int minA = Integer.parseInt(s.charAt(0)+"");
-        int minB = Integer.parseInt(s.charAt(1)+"");
-        int secA = Integer.parseInt(s.charAt(3)+"");
-        int secB = Integer.parseInt(s.charAt(4)+"");
-        int hunA = Integer.parseInt(s.charAt(6)+"");
-        int hunB = Integer.parseInt(s.charAt(7)+"");
+        int minA = Integer.parseInt(s.charAt(0) + "");
+        int minB = Integer.parseInt(s.charAt(1) + "");
+        int secA = Integer.parseInt(s.charAt(3) + "");
+        int secB = Integer.parseInt(s.charAt(4) + "");
+        int hunA = Integer.parseInt(s.charAt(6) + "");
+        int hunB = Integer.parseInt(s.charAt(7) + "");
         long millis = minA*600000+minB*60000+secA*10000+secB*1000+hunA*100+hunB*10;
         return millis;
     }

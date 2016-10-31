@@ -1,4 +1,4 @@
-package es.upm.miw.SolitarioCelta.AlertView;
+package es.upm.miw.SolitarioCelta.alertdialog;
 
 import android.app.Dialog;
 import android.app.DialogFragment;
@@ -9,7 +9,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import es.upm.miw.SolitarioCelta.Activities.MainActivity;
+import es.upm.miw.SolitarioCelta.activities.MainActivity;
 import es.upm.miw.SolitarioCelta.R;
 import es.upm.miw.SolitarioCelta.utils.FileUtils;
 

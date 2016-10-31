@@ -1,4 +1,4 @@
-package es.upm.miw.SolitarioCelta.AlertView;
+package es.upm.miw.SolitarioCelta.alertdialog;
 
 import android.app.Activity;
 import android.content.DialogInterface;
@@ -7,7 +7,7 @@ import android.preference.PreferenceManager;
 import android.text.InputType;
 import android.widget.EditText;
 
-import es.upm.miw.SolitarioCelta.Activities.MainActivity;
+import es.upm.miw.SolitarioCelta.activities.MainActivity;
 import es.upm.miw.SolitarioCelta.R;
 
 /**
