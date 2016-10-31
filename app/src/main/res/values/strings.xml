@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Solitario Celta</string>
+    <string name="txtSinImplementar">¡No implementado aún!</string>
+    <string name="txtReiniciarPartida">Reiniciar</string>
+    <string name="txtOpcionGuardar">Guardar Partida</string>
+    <string name="txtOpcionRecuperar">Recuperar Partida</string>
+    <string name="txtOpcionEliminar">Eliminar Partida guardada</string>
+    <string name="txtOpcionMejoresResultados">Mejores Resultados</string>
+
+    <!-- Diálogo Final -->
+    <string name="txtDialogoFinalTitulo">Fin del juego</string>
+    <string name="txtDialogoFinalPregunta">¿Quiere jugar otra partida?</string>
+    <string name="txtDialogoFinalAfirmativo">Sí</string>
+    <string name="txtDialogoFinalNegativo">No</string>
+    <!-- Diálogo Final Restore-->
+    <string name="txtDialogoRestoreFinalTitulo">Cuidado</string>
+    <string name="txtDialogoRestoreFinalPregunta">¿Ha combiado la partida actual, quieres seguir recuperar?</string>
+    <!-- Diálogo Final Restore-->
+    <string name="txtDefaultDialogoTitulo">Default title</string>
+    <string name="txtDefaultDialogoPregunta">¿Default precunta?</string>
+    <!-- Diálogo name-->
+    <string name="txtNameDialogoTitulo">Un Nombre para la partida guardada</string>
+    <string name="txtNameDialogoPregunta">""</string>
+    <string name="txtNameResultDialogoTitulo"> tu nombre para el resultado</string>
+    <!-- Diálogo name-->
+    <string name="txtDeleteDialogoTitulo">Eliminar Resultdados</string>
+    <string name="txtDeleteDialogoPregunta">¿Estas seguro de borrar todos los resultados?</string>
+
+    <!-- Acerca de -->
+    <string name="aboutText">Acerca de</string>
+    <string name="aboutMessage">El juego consiste en ir comiendo piezas
+    (en horizontal o en vertical) hasta conseguir que sólo quede una pieza
+    en el centro. En cada movimiento, la pieza puede saltar solo una pieza.</string>
+
+    <!-- Preferencias -->
+    <string name="prefTituloCategoria1">Datos personales</string>
+    <string name="prefTituloNombreJugador">Nombre del jugador</string>
+    <string name="prefTextoNombreJugador">Pulse para teclear el nombre del jugador</string>
+    <string name="prefTituloCategoria2">Ajustes del juego</string>
+    <string name="preferencesText">Ajustes</string>
+    <string name="title_activity_results_list">ResultsListActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+</resources>

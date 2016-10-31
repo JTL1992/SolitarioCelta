@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/name_txt"
+        android:text="nombre:"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/score_txt" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/name"
+        android:text="alizbeo"
+        android:layout_toRightOf="@+id/name_txt"
+        android:layout_marginLeft="2dp"
+        android:layout_alignTop="@+id/name_txt" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/score_txt"
+        android:text=" numero de pieza:"
+        android:layout_marginLeft="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/score"
+        android:text="23"
+        android:layout_toRightOf="@+id/score_txt"
+        android:layout_marginLeft="2dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/date_txt"
+        android:text="date:"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/score"
+        android:layout_alignTop="@+id/name_txt" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/date"
+        android:text="date"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/date_txt"
+        android:layout_alignTop="@+id/name_txt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="tiempo usado:"
+        android:id="@+id/time_txt"
+        android:layout_alignTop="@+id/score_txt"
+        android:layout_toRightOf="@+id/score"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="00:00.00"
+        android:id="@+id/time"
+        android:layout_toRightOf="@+id/time_txt"
+        android:layout_alignTop="@+id/time_txt" />
+</RelativeLayout>
