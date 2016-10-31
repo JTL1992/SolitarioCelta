@@ -28,13 +28,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SCeltaPrefs"
-            android:label="@string/preferencesText" >
-            <intent-filter>
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".Activities.PrefsActivity"
             android:label="@string/preferencesText" >
             <intent-filter>
